@@ -1,0 +1,286 @@
+*{
+    padding: 0em;
+    margin: 0em;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+
+#nav-bar{
+    background-color: black!important;
+    position: sticky;
+}
+
+.navbar-nav li a{
+    float: right!important;
+    text-align: left;
+}
+
+.navbar-nav a:hover{
+    color: orange!important;
+}
+
+.navbar-nav a:active{
+    color: darkblue!important;
+}
+
+.nav-link{
+    text-transform: uppercase!important;
+    font: bold!important;
+}
+
+.navbar-toggler{
+    float: right!important;
+}
+
+.carousel-inner{
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+
+.carousel-caption{
+    top: 50%;
+}
+
+#about{
+    padding: 3em;
+    line-height: 1.7em;
+}
+
+#about-content{
+    font-size: 1.5em!important;
+}
+
+#about-content h2{
+    text-decoration-line: underline!important;
+    text-decoration-color: chartreuse;
+}
+
+.progress{
+    margin-bottom: 3em!important;
+}
+
+#service{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)) ,url(../images/pexels-photo-313690.jpeg);
+    min-height: 65vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em;
+}
+
+#service h2{
+    color: gold!important;
+   font-size: 40px!important;
+   padding-top:
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border: 2px khaki solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.col-md-3 .icon:hover{
+    background: green;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+#team h1{
+    text-decoration-line: underline;
+    text-decoration-color: coral;
+}
+
+.profile-pic{
+    padding: 30px;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1)!important;
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0)!important;
+
+}
+
+.listings ul{
+    position: relative;
+}
+
+.img-box ul{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    top: 110px;
+    opacity: 0;
+}
+
+.img-box:hover ul{
+    opacity: 1;
+}
+
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)) ,url(../images/promo1.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    padding: 5em;
+}
+
+#promo p{
+    text-transform: capitalize;
+    color: aquamarine;
+    font-size: 3em;
+}
+
+#price{
+    background-color: darkgrey;
+    padding: 30px 30px;
+}
+
+#price h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: palegreen;
+}
+
+
+.single-price{
+    background-color: oldlace;
+    padding: 10px 10px;
+    transition: 0.5s;
+    margin: 10px auto;
+}
+
+.single-price:hover{
+    box-shadow: 2px 10px 10px darkslategray;
+    transition: 0.5s;
+}
+
+.price-head{
+    background-color: purple;
+    padding: 1em;
+    text-align: center;
+    width:100%;
+}
+
+.price-head h2{
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+.price-content ul li{
+    text-align: center;
+    list-style: none;
+    padding: 0.7em;
+    float: left;
+    display: inline;
+}
+
+.price-content ul:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+
+.price-load{
+    text-align: center;
+    background-color: khaki;
+    padding: 1em;
+}
+
+.fa-check-circle, .fa-times-circle{
+    color: green!important;
+}
+
+#testimonials h1{
+    font-size: 42px!important;
+    font-weight: bold;
+}
+
+#testimonials .row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-md-4{
+   margin-top: 4em;
+   margin-right
+}
+
+.profile{
+    background-color: navajowhite;
+    min-height: 40vh;
+    margin-right: 10px;
+}
+
+.profile:hover{
+    box-shadow: 10px 10px 10px royalblue;
+    transition: 0.5s;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile img{
+    top: -50px;
+    position: absolute;
+    left: calc(50%-60px);
+    border: 10px solid white;
+    right: 120px;
+}
+
+.profile blockquote{
+    padding: 4em 1em;
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.profile .blockquote h4{
+    color: darkblue!important;
+}
+/*
+blockquote::before{
+    content: '\93';
+    font-size: 50px;
+    color: darkblue;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+*/
+.ik h1{
+    text-decoration-line: underline;
+    font-weight: bold;
+    color: darkblue!important;
+    text-decoration-color: gold;
+}
+
+#contact{
+    background-color: cadetblue;
+}
+
+::placeholder{
+    color: darkblue!important;
+}
+
+#footer{
+    padding: 1em!important;
+    font-size: 20px;
+}
